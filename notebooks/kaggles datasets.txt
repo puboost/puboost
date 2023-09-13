@@ -1,0 +1,6 @@
+
+# Bank Customer Churn
+https://www.kaggle.com/datasets/radheshyamkollipara/bank-customer-churn
+
+# Company's Ideal Customers | Marketing Strategy
+https://www.kaggle.com/datasets/whenamancodes/customer-personality-analysis

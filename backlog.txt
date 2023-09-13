@@ -1,18 +1,16 @@
 # hiddens
-    - incorporar en fit la opcion para tener hiddens (puede ser un numero para elegir el porcentaje de la seed)
-    - sumar un parametro para ver warnings de variables -> correr dos modelos con hidden, uno con la poblacion entera, 
-        y otro con una muestra de la poblacion que sea del mismo tamano que los hiddens // en el segundo se esperaria
-        que el modelo se confunda mas con los hiddens // las variables que queden muy importantes en el primero y bajen
-        mucho en el segundo, se podrian senalar como sospechosas
+    - incorporar en fit la opcion para tener hiddens (puede ser un numero para elegir el porcentaje de la seed) // en la funcion como esta ahora hay que hacerlo a mano
+    - sumar un parametro para ver warnings de variables -> correr dos modelos con hidden, uno con la poblacion entera, y otro con una muestra de la poblacion que sea del mismo tamano que los hiddens // en el segundo se esperaria que el modelo se confunda mas con los hiddens // las variables que queden muy importantes en el primero y bajen mucho en el segundo, se podrian senalar como sospechosas
         
 # otros features
-    - sumar atributo feature importance
-    - sumar como atributo la base scoreada de la poblacion que se uso para fitear (esto hace falta, o conviene usar el
-        predict?)
+    - sumar atributo feature importance -- done
+    - sumar como atributo la base scoreada de la poblacion que se uso para fitear (esto hace falta, o conviene usar el predict?)
         
 # debates
-    - en general va a convenir fitear con una muestra y despues usar el predict para el resto de la poblacion o fitear con
-        toda la base y usar eso como prediccion?
+    - en general va a convenir fitear con una muestra y despues usar el predict para el resto de la poblacion o fitear con toda la base y usar eso como prediccion?
     - para comparar algoritmos / elegir hiperparametros, conviene hacerlo con N poblacion = N Hidden? 
+    - para comparar algoritmos, analizar la distribucion de los X mejores rankeados de la poblacion y ver como es la distribucion de las variables mas importantes, comparando con la distribucion de la semilla
         
- 
+ # en la notebook de ejemplo del modelo de propension
+     - agrandar el volumen de la base original o buscar una nueva
+     - sumar la seccion de hiperparametrizacion y ver que modelo funciona mejor // para el puboost se puede usar optimizaro bayesiano?
